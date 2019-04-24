@@ -17,3 +17,7 @@
 .paragraph{
     color: crimson;
 }
+.main{
+    border:  1px solid black;
+    width: 300px;
+}
