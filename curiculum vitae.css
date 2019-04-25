@@ -1,0 +1,84 @@
+
+.header{
+
+    border: solid 1px black;
+    width: 800px;
+    height: 200px;
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+
+}
+.main{
+
+    display: flex;
+
+
+    border: solid 1px black;
+
+    background-color: lightgrey;
+
+    width: 800px;
+    height: 800px;
+}
+
+.section-photo{
+    background-color: grey;
+
+    border: solid 1px dimgrey;
+
+    width: 780px;
+    height: 100px;
+
+
+
+}
+
+.section-coordonnée{
+    background-color: grey;
+
+    border: solid 1px dimgrey;
+
+    width: 780px;
+    height: 50px;
+}
+
+.section-colonne-gauche{
+    background-color: grey;
+    border: solid 1px dimgrey;
+
+    width: 400px;
+    height: 780px;
+}
+
+.section-colonne-droite{
+    background-color: grey;
+    border: solid 1px dimgrey;
+
+    width: 350px;
+    height: 780px;
+}
+
+.article{
+    border: solid 1px dimgrey;
+    background-color:darkgrey;
+}
+.article-titre-cv{
+
+    width: 400px;
+    height: 150px;
+
+}
+.article-competence{
+    width: 400px;
+    height: 550px;
+}
+.article-experience{
+    width: 350px;
+    height: 450px;
+}
+.article-formation{
+    width: 350px;
+    height: 300px;
+}
