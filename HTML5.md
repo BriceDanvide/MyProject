@@ -12,7 +12,6 @@
 - **Attention** : Pas de menu en``` <ul>```utiliser la nouvelle balise ```<nav>```
 > exemple
 ```html
-
 <ul>
 	<li>contenu</li>
 	<li></li>
