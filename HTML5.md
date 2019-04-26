@@ -6,11 +6,24 @@
 	* `<h2>` et `<h3>` logique et avec un paragraphe en rapport avec le titre respectif
 	* On évite de mettre du texte dans DIV(utiliser la balise `<p>`)
 	
-## Liste ```<ul><li></li></ul>```
+## Listes
+- on fait des listes en utilisant la balise `ul`
+- on met les points à l'interieur des listes avec des balises `li`
+- **Attention** : Pas de menu en``` <ul>```utiliser la nouvelle balise ```<nav>```
+> exemple
+```html
+<ul>
+	<li>contenu</li>
+	<li></li>
+	<li></li>
+	<li></li>
 
 
+</ul>
 
-Pas de menu en``` <ul>```utiliser la nouvelle balise ```<nav>```
+```
+
+
 
 
 ## Liens ```<a>```
