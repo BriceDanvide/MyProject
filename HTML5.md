@@ -10,8 +10,18 @@
 - on fait des listes en utilisant la balise `ul`
 - on met les points à l'interieur des listes avec des balises `li`
 - **Attention** : Pas de menu en``` <ul>```utiliser la nouvelle balise ```<nav>```
+> exemple
+```html
+<ul>
+	<li>contenu</li>
+	<li></li>
+	<li></li>
+	<li></li>
 
 
+</ul>
+
+```
 
 
 
