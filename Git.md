@@ -1,6 +1,6 @@
-#Git 
+# Git 
 
-##Git définition
+## Git définition
 Git est un protocole d'échange d'information
 (Exemple Http:// protocole le plus utilisé) qui permet  de mettre à jour d'échanger et de partager des fichiers de texte.
 
