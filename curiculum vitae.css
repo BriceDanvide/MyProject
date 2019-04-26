@@ -1,43 +1,55 @@
 
 .header{
-
+    margin: 0 auto;
     border: solid 1px black;
     width: 800px;
-    height: 200px;
+    height: 500px;
 
-    background-color: lightgrey;
+
+    background-color: #eee;
     display: flex;
     flex-direction: column;
 
 }
 .main{
+    margin: 0 auto;
 
     display: flex;
 
 
     border: solid 1px black;
-
-    background-color: lightgrey;
+    background-color: #eee;
+    /*background-color: lightgrey;*/
 
     width: 800px;
     height: 800px;
+
+
 }
-
-.section-photo{
-    background-color: grey;
-
-    border: solid 1px dimgrey;
+.section-titre {
+   /* background-color: grey;
+background-color: #eee;
+    border: solid 1px dimgrey;*/
 
     width: 780px;
-    height: 100px;
+    height: 200px;
+
+}
+.section-photo{
+    /*background-color: grey;
+
+    border: solid 1px dimgrey;*/
+    background-color: #eee;
+    width: 780px;
+    height: 200px;
 
 
 
 }
 
 .section-coordonnée{
-    background-color: grey;
-
+    /*background-color: grey;*/
+    background-color: #eee;
     border: solid 1px dimgrey;
 
     width: 780px;
@@ -45,29 +57,28 @@
 }
 
 .section-colonne-gauche{
-    background-color: grey;
+   /*background-color: grey;*/
     border: solid 1px dimgrey;
 
     width: 400px;
     height: 780px;
+
 }
 
 .section-colonne-droite{
-    background-color: grey;
+   /* background-color: grey;*/
     border: solid 1px dimgrey;
 
     width: 350px;
     height: 780px;
 }
 
-.article{
-    border: solid 1px dimgrey;
-    background-color:darkgrey;
-}
+
 .article-titre-cv{
 
-    width: 400px;
-    height: 150px;
+    width: 780px;
+    height: 200px;
+
 
 }
 .article-competence{
@@ -81,4 +92,89 @@
 .article-formation{
     width: 350px;
     height: 300px;
+}
+.footer{
+    margin: 0 auto;
+
+    border: solid 1px dimgrey;
+    width: 800px;
+    height: 150px;
+    background-color: #eee;
+    /*background-color: lightgrey;*/
+
+}
+
+#portrait{
+    text-align: center;
+    background-color: black;
+
+
+    /*padding-bottom:5%;
+
+    padding-top : 5%;
+
+    /*padding-left : 10%;
+    padding-right :10%;*/
+}
+
+#myDate{
+    font-size: 60px;
+    text-align: center;
+    font-family: helvetica,arial,Century Gothic;
+
+
+
+
+}
+
+img{
+
+
+    width: 350px;
+    height: 200px;
+
+    object-fit: cover;
+}
+
+h1{
+    font-family: helvetica,arial,Century Gothic;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size:50px ;
+    /*font-weight: normal;*/
+}
+h2{
+    font-family: helvetica,arial,Century Gothic;
+    margin-left:3% ;
+    letter-spacing: 0.3em;
+    font-size:15px ;
+}
+h3{
+
+    margin-left:3% ;
+    font-size: 10px;
+}
+
+em{
+    font-size: 12px;
+    letter-spacing: 0.1em
+
+}
+li{
+    font-family: Century Gothic;
+    margin-left:-5%;
+    list-style-type: none;
+}
+
+span{
+    font-family: Century Gothic;
+
+    padding: 10px;
+   /* letter-spacing: 0.3em;*/
+
+}
+
+body{
+
+
 }
