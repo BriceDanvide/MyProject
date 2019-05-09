@@ -1,4 +1,4 @@
-# .split()
+# split
 
 La méthode split() permet de diviser une chaîne de caractères à partir d'un séparateur pour fournir un tableau de sous-chaînes.
 var str = 'The quick brown fox jumps over the lazy dog.';
@@ -15,7 +15,7 @@ var strCopy = str.split();
 console.log(strCopy);
 // expected output: Array ["The quick brown fox jumps over the lazy dog."]
 ```
-## .charAt()
+## charAt
 La méthode charAt() renvoie une nouvelle chaîne contenant le caractère (ou, plus précisément, le point de code UTF-16)  à la position indiquée en argument.
 
 ```javascript
@@ -26,7 +26,7 @@ var index = 4;
 console.log('The character at index ' + index + ' is ' + sentence.charAt(index));
 // expected output: "The character at index 4 is q"
 ```
-# .toUpperCase()
+# toUpperCase
 
 La méthode toUpperCase() retourne la valeur de la chaîne courante, convertie en majuscules.
 ```javascript
