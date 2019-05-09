@@ -17,6 +17,7 @@ console.log(str);
 // expected output: "012345678"
 ```
 ## Boucle while
+
 >while (condition) instruction
 
 L'instruction while permet de créer une boucle qui s'exécute tant qu'une condition de test est vérifiée. La condition est évaluée avant d'exécuter l'instruction contenue dans la boucle.

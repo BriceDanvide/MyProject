@@ -1,4 +1,4 @@
-# .Length()
+## Length
 
 La propriété length (longueur) est un entier non-signé de 32 bits qui indique le nombre d'éléments présents dans le tableau. Elle est toujours supérieure au plus grand indice du tableau.
 ```
@@ -9,7 +9,7 @@ console.log(clothing.length);
 
 ```
 
-# .map()
+# map
 
 La méthode map() crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant.
 ```javascript
@@ -25,7 +25,7 @@ console.log(map1);
 ```
 
 
-# .concat()
+# concat
 
 La méthode concat() est utilisée afin de fusionner un ou plusieurs tableaux en les concaténant. Cette méthode ne modifie pas les tableaux existants, elle renvoie un nouveau tableau qui est le résultat de l'opération.
 ```
@@ -36,7 +36,7 @@ console.log(array1.concat(array2));
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
 
 ```
-# .findIndex()
+# findIndex
 
 La méthode findIndex() renvoie l'indice du premier élément du tableau qui satisfait une condition donnée par une fonction. Si la fonction renvoie faux pour tous les éléments du tableau, le résultat vaut -1.
 ```javascript
@@ -51,7 +51,7 @@ console.log(array1.findIndex(isLargeNumber));
 
 ```
 
-# .filter()
+# filter
 
 La méthode filter() crée et retourne un nouveau tableau contenant tous les éléments du tableau d'origine qui remplissent une condition déterminée par la fonction callback.
 ```javascript
@@ -63,7 +63,7 @@ console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
 
 ```
-# .join()
+# join
 
 La méthode join() crée et renvoie une nouvelle chaîne de caractères en concaténant tous les éléments d'un tableau (ou d'un objet semblable à un tableau). La concaténation utilise la virgule ou une autre chaîne, fournie en argument, comme séparateur.
 
@@ -82,7 +82,7 @@ console.log(elements.join('-'));
 ```
 
 
-# .indexOf()
+# indexOf
 
 La méthode indexOf() renvoie le premier indice pour lequel on trouve un élément donné dans un tableau. Si l'élément cherché n'est pas présent dans le tableau, la méthode renverra -1.
 
@@ -100,7 +100,7 @@ console.log(beasts.indexOf('giraffe'));
 // expected output: -1
 
 ```
-# .push()
+# push
 
 La méthode push() ajoute un ou plusieurs éléments à la fin d'un tableau et retourne la nouvelle taille du tableau.
 ``` javascript
@@ -118,7 +118,7 @@ console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens"]
 
 ```
-# .forEach()
+# forEach
 
 La méthode forEach() permet d'exécuter une fonction donnée sur chaque élément du tableau.
 
@@ -134,7 +134,7 @@ array1.forEach(function(element) {
 // expected output: "c"
 
 ```
-# .reduce()
+# reduce
 
 La méthode reduce() applique une fonction qui est un « accumulateur » et qui traite chaque valeur d'une liste (de la gauche vers la droite) afin de la réduire à une seule valeur.
 ``` javascript
@@ -149,7 +149,7 @@ console.log(array1.reduce(reducer));
 console.log(array1.reduce(reducer, 5));
 // expected output: 15
 ```
-# .slice()
+# slice
 
 La méthode slice() renvoie un objet tableau, contenant une copie superficielle (shallow copy) d'une portion du tableau d'origine, la portion est définie par un indice de début et un indice de fin (exclus). Le tableau original ne sera pas modifié.
 ```javascript
@@ -165,7 +165,7 @@ console.log(animals.slice(1, 5));
 // expected output: Array ["bison", "camel", "duck", "elephant"]
 
 ```
-# .sort()
+# sort
 
 La méthode sort() trie les éléments d'un tableau, dans ce même tableau, et renvoie le tableau. Par défaut, le tri s'effectue sur les éléments du tableau convertis en chaînes de caractères et triées selon les valeurs des unités de code UTF-16 des caractères.
 La complexité en espace mémoire et en temps utilisée pour le tri ne peut pas être garantie car elle dépend de l'implémentation.
@@ -180,7 +180,7 @@ array1.sort();
 console.log(array1);
 // expected output: Array [1, 100000, 21, 30, 4]
 ```
-# .splice()
+# splice
 
 La méthode splice() modifie le contenu d'un tableau en retirant des éléments et/ou en ajoutant de nouveaux éléments à même le tableau.On peut ainsi vider ou remplacer une partie d'un tableau.
 
