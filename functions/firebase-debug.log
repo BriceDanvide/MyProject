@@ -367,3 +367,36 @@
 [debug] [2019-05-23T15:38:38.415Z] Starting @google-cloud/functions-emulator
 [debug] [2019-05-23T15:38:40.991Z] Parsing function triggers
 [info] +  functions: helloWorld: http://localhost:5000/gestionusers-e30d6/us-central1/helloWorld
+[info] Shutting down...
+[debug] [2019-05-24T08:32:09.898Z] ----------------------------------------------------------------------
+[debug] [2019-05-24T08:32:09.902Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brice\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-05-24T08:32:09.903Z] CLI Version:   6.8.0
+[debug] [2019-05-24T08:32:09.903Z] Platform:      win32
+[debug] [2019-05-24T08:32:09.903Z] Node Version:  v10.15.3
+[debug] [2019-05-24T08:32:09.910Z] Time:          Fri May 24 2019 10:32:09 GMT+0200 (GMT+02:00)
+[debug] [2019-05-24T08:32:09.910Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-24T08:32:09.926Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-24T08:32:09.927Z] > authorizing via signed-in user
+[debug] [2019-05-24T08:32:09.927Z] [iam] checking project gestionusers-e30d6 for permissions ["firebase.projects.get"]
+[debug] [2019-05-24T08:32:09.930Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-24T08:32:09.930Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-24T08:32:10.322Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T08:32:10.353Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gestionusers-e30d6:testIamPermissions  
+
+[debug] [2019-05-24T08:32:11.263Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T08:32:11.268Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/gestionusers-e30d6  
+ 
+[debug] [2019-05-24T08:32:12.139Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brice\WebstormProjects\untitled'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-05-24T08:32:13.493Z] Fetching environment
+[debug] [2019-05-24T08:32:13.497Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/320436339658:getServerAppConfig  
+ 
+[debug] [2019-05-24T08:32:13.832Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-24T08:32:13.835Z] Starting @google-cloud/functions-emulator
+[debug] [2019-05-24T08:32:16.492Z] Parsing function triggers
+[info] +  functions: helloWorld: http://localhost:5000/gestionusers-e30d6/us-central1/helloWorld
